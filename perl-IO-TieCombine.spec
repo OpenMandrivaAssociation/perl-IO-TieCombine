@@ -1,5 +1,5 @@
 %define upstream_name    IO-TieCombine
-%define upstream_version 1.003
+%define upstream_version 1.004
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -47,6 +47,7 @@ make test
 
 * Fri May 29 2009 cpan2dist 1.000-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
 
